@@ -16,7 +16,6 @@ h3 {
 }
 p {
   font-weight: 600;
-  margin: 10px;
 }
 #container {
   display: flex;
@@ -25,7 +24,7 @@ p {
 }
 .half-width {
   width: 50%;
-  padding: 20px;
+  padding: 10px;
 }
 .half-width img {
   max-width: 100%;
@@ -46,4 +45,49 @@ p {
 }
 img {
   width: 50%;
+}
+div {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+h2 {
+  color: brown;
+  font-weight: 700;
+  font-size: 40px;
+}
+span {
+  color: dimgray;
+  font-weight: 800;
+}
+.flexible {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  font-weight: 700;
+}
+.width {
+  width: 40%;
+  margin: 5%;
+  border: solid 10px white;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px 5px gray;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 15px white;
+  border-radius: 20px;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+.foot {
+  color: orange;
 }

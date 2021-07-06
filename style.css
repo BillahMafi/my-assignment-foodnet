@@ -10,17 +10,25 @@ h1 {
   font-size: 50px;
   color: crimson;
 }
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+p {
+  font-weight: 600;
+  margin: 10px;
+}
 #container {
   display: flex;
   background-image: url(images/7.png);
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
-  padding-left: 50px;
-  font-weight: 800;
+  padding: 20px;
 }
 .half-width img {
-  width: 80%;
+  max-width: 100%;
 }
 .button {
   text-decoration: none;
@@ -29,5 +37,13 @@ h1 {
   background-image: linear-gradient(orange, red);
   color: aliceblue;
   font-weight: 700;
-  margin: 5%;
+  margin: 10%;
+}
+#about {
+  display: flex;
+  background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+}
+img {
+  width: 50%;
 }
